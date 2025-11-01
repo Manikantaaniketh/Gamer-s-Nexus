@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&display=swap');
+
+body{
+    background-image: url(C:/Users/manik/OneDrive/Pictures/bike.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    overflow-x: hidden;
+
+}
+
+
+
+#title{          /*title*/
+    font-size: 57px;
+    font-family: "Butcherman", system-ui;
+   font-weight: 550;
+   font-style: normal;
+    color:#a40e4c;
+    word-spacing: 3px;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 11px;
+    
+}
+
+.port{     /*title*/
+height: 100px;
+width:2000px; 
+border:5px double black;
+position: sticky;
+background-image: url(C:/Users/manik/OneDrive/Pictures/wallpaper-2.jpg);
+ background-repeat:no-repeat;
+background-size:cover;
+}
+
+#me{       /*links*/
+   position: relative;
+    padding-left: 80px; 
+    margin: 20px;
+    text-decoration: none;
+     font-family: "Butcherman", system-ui;
+}
+
+#me:hover{
+    color: #d81159;
+    text-decoration:underline;
+    
+}
+
+#folio{     /*links*/
+    margin-left:95px;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+}
+
+.card{
+    display:inline-flex;
+    margin-top: 110px;
+    margin-left: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 5px 5px black;
+}
+
+
+.card-img-top:hover{
+transform:scale(1.1);
+}
